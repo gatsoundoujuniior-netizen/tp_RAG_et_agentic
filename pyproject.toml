@@ -1,0 +1,22 @@
+[project]
+name = "tp-rag-and-agentic-ai"
+version = "0.1.0"
+description = "TP RAG - Retrieval Augmented Generation avec analyse de CV"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "langchain>=0.3",
+    "langchain-openai>=0.2",
+    "langchain-community>=0.3",
+    "langchain-text-splitters>=0.3",
+    "langchain-chroma>=0.1",
+    "chromadb>=0.5",
+    "pypdf>=5.0",
+    "python-dotenv>=1.0",
+    "tiktoken>=0.8",
+    "openai>=1.0",
+    "ipykernel>=6.29",
+    "jupyter>=1.1",
+    "ipython>=8.0",
+    "streamlit>=1.57.0",
+]
